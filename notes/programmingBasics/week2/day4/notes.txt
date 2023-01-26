@@ -1,0 +1,8 @@
+# OOP
+
+Methods Vs Attributes
+Attributes is how we describe objects
+Methods is how we use objects
+
+Object Oriented Programming
+1. Abstraction - complex action in simple verbs -- when you only show the nec
