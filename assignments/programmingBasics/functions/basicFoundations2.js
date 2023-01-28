@@ -115,6 +115,13 @@ function previousLengths (arr) {
 console.log(previousLengths(arrStr))
 // let str = 'hello'
 // console.log(arrStr[1 -1].length)
+// Remember when you optimized the code the if statement wasn’t needed. This is what you had me to code and it works:
+// function previousLengths(arr){
+//   for(let i = arr.length - 1; i > 0; i--){
+//     arr[i] = arr[i - 1].length
+//   }
+//   return arr
+// }
 
 // Add Seven - Build a function that accepts an array. Return a new array with all the values of the original, but add 7 to each. Do not alter the original array.  Example, addSeven([1,2,3]) should return [8,9,10] in a new array.
 function addSeven (arr) {
