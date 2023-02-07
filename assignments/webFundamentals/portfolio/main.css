@@ -100,7 +100,8 @@ button {
     background-color: green;
     border-radius: 5px;
     padding: 4px;
-    
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px rgba(73, 66, 66, 0.507);
 
 }
 .button {

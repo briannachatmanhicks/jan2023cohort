@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stylish&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <title>Dojo Weather</title>
+</head>
+<body class="column">
+    <header class="row">
+        <h1 class="dojoweather"> DojoWeather</h1>
+        <nav class="row">
+            <a href="#" onclick="alertMe(this)">Burbank</a>
+            <a href="#" onclick="alertMe(this)">Chicago</a>
+            <a href="#" onclick="alertMe(this)"">Dallas</a>
+        </nav>
+    </header>
+    <main class="column">
+        <div class="row twoHeader">
+            <div><span>San Jose</span></div>
+            <form name="tempCategory">
+                <label for="temp">show temperature in</label>
+                <select name="languages" id="languages" onclick="display()">
+                    <option value="c"><span>&#176;</span>C</option>
+                    <option value="f"><span>&#176;</span>F</option>
+                </select>
+            </form>
+        </div>
+        <hr>
+        <div class="row forecast">
+            <div class="column">
+                <h2>Today</h2>
+                <img src="./assets/some_rain.png" alt="Rainy Cloud">
+                <p>some rain</p>
+                <div class="row">
+                    <p class="red" id="red">24<span>&#176;</span></p>
+                    <p class="blue">18<span>&#176;</span></p>
+                </div>
+            </div>
+            <div class="column">
+                <h2>Tomorrow</h2>
+                <img src="./assets/some_sun.png" alt="Sun">
+                <p>some sun</p>
+                <div class="row">
+                    <p class="red">27<span>&#176;</span></p>
+                    <p class="blue">19<span>&#176;</span></p>
+                </div>
+            </div>
+            <div class="column">
+                <h2>Friday</h2>
+                <img src="./assets/some_clouds.png" alt="Cloud">
+                <p>some clouds</p>
+                <div class="row">
+                    <p class="red">21<span>&#176;</span></p>
+                    <p class="blue">16<span>&#176;</span></p>
+                </div>
+            </div>
+            <div class="column">
+                <h2>Saturday</h2>
+                <img src="./assets/some_sun.png" alt="Sun">
+                <p>some sun</p>
+                <div class="row">
+                    <p class="red">26<span>&#176;</span></p>
+                    <p class="blue">21<span>&#176;</span></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="row" id="hide">
+        <img src="./assets/cookie.png" alt="Cookie Bite">
+        <div>
+            <h3>Stop! Cookie time</h3>
+            <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more...</a></p>
+        </div>
+        <button onclick="AcceptCookie()" >I Accept</button>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>

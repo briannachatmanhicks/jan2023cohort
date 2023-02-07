@@ -1,0 +1,137 @@
+/* * {
+    border: 1px dotted red;
+} */
+
+body {
+    width: 970px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    width: 98%;
+    background-color:lightblue;
+    justify-content: space-between;
+    
+    
+}
+
+.dojoweather {
+    width: 30%;
+    text-align: center;
+    font-family: 'Stylish', 'sans-serif';
+    font-size: 50px;
+    color: white;
+    margin: 10px;
+    margin-left: 50px;
+}
+
+nav {
+    width: 444px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 75px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Stylish', 'sans-serif';
+    font-size: 30px;
+}
+
+
+
+
+main {
+    width: 98%;
+    /* justify-content: center;  justify-content in a column moves up-down but in a row it moves left-right*/
+    /* align-items in a column goes left-right but in a row it moves up-down */
+    align-items: center;
+    margin-bottom: 14px; 
+    height: 500px;
+}
+.twoHeader {
+    padding-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    font-family: 'Stylish', 'sans-serif';
+}
+
+.twoHeader div span{
+    margin: 0px;
+    font-size: 40px;
+}
+hr {
+    width: 85%;
+    border-color: black;
+    border-width: 1px;
+}
+
+.forecast {
+    margin-top: 15px;
+    height: 310px;
+    width: 85%;
+    justify-content: space-between;
+}
+.forecast div h2{
+    margin: 0;
+    margin-top: 14px;
+    text-align: center;
+    font-family: 'Stylish', 'sans-serif';
+    font-weight: 100;
+    font-size: 30px;
+}
+.forecast div{ 
+    background-color: rgba(147, 146, 146, 0.167);
+    height: 530px;
+    width: 170px;
+    height: 102%;
+    align-items: center;
+}
+.forecast div div{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+
+img {
+    border-radius: 1500px;
+    border: none;
+    padding-top: 10px;
+    width: 135px;
+}
+
+.forecast div p {
+    text-align: center;
+    padding: 0 20px;
+    font-family: 'Stylish', 'sans-serif';
+    font-size: 20px;
+}
+.forecast div div .red {
+    color: red;
+    font-family: 'Stylish', 'sans-serif';
+    font-size: 25px;
+}
+
+.forecast div div .blue{
+    color: blue;
+    font-family: 'Stylish', 'sans-serif';
+    font-size: 25px;
+
+}
+
+footer {
+    width: 85%;
+    border: 2px solid black;
+}
+
