@@ -1,6 +1,6 @@
 console.log('wiredUp')
 
-// console.log(document.getElementsByClassName('likebutt').innerHTML)
+console.log(document.getElementsByClassName('likebutt').innerHTML)
 let likes = document.getElementById('likecount')
 console.log(likes)
 function newLike() {
