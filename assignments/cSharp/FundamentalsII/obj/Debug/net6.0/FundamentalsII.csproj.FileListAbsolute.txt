@@ -1,0 +1,15 @@
+/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/assignments/cSharp/FundamentalsII/bin/Debug/net6.0/FundamentalsII
+/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/assignments/cSharp/FundamentalsII/bin/Debug/net6.0/FundamentalsII.deps.json
+/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/assignments/cSharp/FundamentalsII/bin/Debug/net6.0/FundamentalsII.runtimeconfig.json
+/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/assignments/cSharp/FundamentalsII/bin/Debug/net6.0/FundamentalsII.dll
+/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/assignments/cSharp/FundamentalsII/bin/Debug/net6.0/FundamentalsII.pdb
+/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/assignments/cSharp/FundamentalsII/obj/Debug/net6.0/FundamentalsII.csproj.AssemblyReference.cache
+/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/assignments/cSharp/FundamentalsII/obj/Debug/net6.0/FundamentalsII.GeneratedMSBuildEditorConfig.editorconfig
+/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/assignments/cSharp/FundamentalsII/obj/Debug/net6.0/FundamentalsII.AssemblyInfoInputs.cache
+/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/assignments/cSharp/FundamentalsII/obj/Debug/net6.0/FundamentalsII.AssemblyInfo.cs
+/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/assignments/cSharp/FundamentalsII/obj/Debug/net6.0/FundamentalsII.csproj.CoreCompileInputs.cache
+/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/assignments/cSharp/FundamentalsII/obj/Debug/net6.0/FundamentalsII.dll
+/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/assignments/cSharp/FundamentalsII/obj/Debug/net6.0/refint/FundamentalsII.dll
+/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/assignments/cSharp/FundamentalsII/obj/Debug/net6.0/FundamentalsII.pdb
+/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/assignments/cSharp/FundamentalsII/obj/Debug/net6.0/FundamentalsII.genruntimeconfig.cache
+/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/assignments/cSharp/FundamentalsII/obj/Debug/net6.0/ref/FundamentalsII.dll
