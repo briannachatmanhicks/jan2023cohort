@@ -77,6 +77,12 @@ static int[] NonNegatives(int[] IntArray)
 {
     for (int i = 0; i < IntArray.Length; i++) {
         Console.WriteLine(IntArray[i]);
+        if (IntArray[i] < 0) {
+            IntArray[i] = 0;
+        }
+    }
+    foreach(var item in IntArray) {
+        Console.WriteLine(item);
     }
     // Your code here
     return IntArray;
@@ -106,16 +112,16 @@ PrintDictionary(TestDict);
 
 // 7. Find Key
 // Given a search term, return true or false whether the given term is a key in a dictionary.
-// static bool FindKey(Dictionary<string,string> MyDictionary, string SearchTerm)
-// {
+static bool FindKey(Dictionary<string,string> MyDictionary, string SearchTerm)
+{
 
-//     // Your code here
-// }
-// // Use the TestDict from the earlier example or make your own
-// // This should print true
-// Console.WriteLine(FindKey(TestDict, "RealName"));
-// // This should print false
-// Console.WriteLine(FindKey(TestDict, "Name"));
+    // Your code here
+}
+// Use the TestDict from the earlier example or make your own
+// This should print true
+Console.WriteLine(FindKey(TestDict, "RealName"));
+// This should print false
+Console.WriteLine(FindKey(TestDict, "Name"));
 
 
 
@@ -131,14 +137,19 @@ PrintDictionary(TestDict);
 // } 
 List<int> TestIntList8 = new List<int>() {6,12,7,10};
 List<string> TestName = new List<string>() {"Julie", "Harold", "James", "Monica"};
-// static Dictionary<string,int> GenerateDictionary(List<string> Names, List<int> Numbers)
-// {
-//     for (i = 0; i < Names.Count; i++) {
-//         Dictionary.Add(Names[i], Numbers[i]);
-//     }
-//     Console.WriteLine(Dictionary);
-//     // Your code here
-// }
-// GenerateDictionary(TestName, TestIntList8);
+static Dictionary<string,int> GenerateDictionary(List<string> Names, List<int> Numbers)
+{
+    Dictionary<string,int> ages = new Dictionary<string,int>();
+
+    for (i = 0; i < ages.Count; i++) {
+        // ages.Add(Names[i], Numbers[i]);
+        
+        Console.WriteLine($"{entry.Key} - {entry.Value}");
+    }
+    
+    return ages
+    // Your code here
+}
+GenerateDictionary(TestName, TestIntList8);
 // We've shown several examples of how to set your tests up properly, it's your turn to set it up!
 // Your test code here
