@@ -114,7 +114,11 @@ PrintDictionary(TestDict);
 // Given a search term, return true or false whether the given term is a key in a dictionary.
 static bool FindKey(Dictionary<string,string> MyDictionary, string SearchTerm)
 {
-
+    bool flag = false;
+    if(MyDictionary.ContainsKey(SearchTerm)){
+        flag = true;
+    }
+    return flag;
     // Your code here
 }
 // Use the TestDict from the earlier example or make your own
@@ -139,17 +143,25 @@ List<int> TestIntList8 = new List<int>() {6,12,7,10};
 List<string> TestName = new List<string>() {"Julie", "Harold", "James", "Monica"};
 static Dictionary<string,int> GenerateDictionary(List<string> Names, List<int> Numbers)
 {
+    string aName;
+    int anAge;
     Dictionary<string,int> ages = new Dictionary<string,int>();
 
-    for (i = 0; i < ages.Count; i++) {
-        // ages.Add(Names[i], Numbers[i]);
+    for (int i = 0; i < Names.Count; i++) {
+        aName = Names[i];
+        anAge = Numbers[i];
         
-        Console.WriteLine($"{entry.Key} - {entry.Value}");
+        ages[aName] = anAge;
     }
-    
-    return ages
+    // foreach(KeyValuePair<string,int> entry in ages){
+    //     Names.Add(entry.Key);
+    //     Numbers.Add(entry.Value);
+    // }
+    return ages;
     // Your code here
 }
-GenerateDictionary(TestName, TestIntList8);
+foreach (KeyValuePair<string,int> entry in GenerateDictionary(TestName, TestIntList8)){
+    Console.WriteLine($"{entry.Key} - {entry.Value}");
+}
 // We've shown several examples of how to set your tests up properly, it's your turn to set it up!
 // Your test code here
