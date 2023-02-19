@@ -143,13 +143,13 @@ List<int> TestIntList8 = new List<int>() {6,12,7,10};
 List<string> TestName = new List<string>() {"Julie", "Harold", "James", "Monica"};
 static Dictionary<string,int> GenerateDictionary(List<string> Names, List<int> Numbers)
 {
-    string aName;
-    int anAge;
+    // string aName;
+    // int anAge;
     Dictionary<string,int> ages = new Dictionary<string,int>();
 
     for (int i = 0; i < Names.Count; i++) {
-        aName = Names[i];
-        anAge = Numbers[i];
+        string aName = Names[i];
+        int anAge = Numbers[i];
         
         ages[aName] = anAge;
     }

@@ -1,0 +1,15 @@
+/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/notes/cSharp/SchoolOop/bin/Debug/net6.0/SchoolOop
+/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/notes/cSharp/SchoolOop/bin/Debug/net6.0/SchoolOop.deps.json
+/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/notes/cSharp/SchoolOop/bin/Debug/net6.0/SchoolOop.runtimeconfig.json
+/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/notes/cSharp/SchoolOop/bin/Debug/net6.0/SchoolOop.dll
+/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/notes/cSharp/SchoolOop/bin/Debug/net6.0/SchoolOop.pdb
+/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/notes/cSharp/SchoolOop/obj/Debug/net6.0/SchoolOop.csproj.AssemblyReference.cache
+/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/notes/cSharp/SchoolOop/obj/Debug/net6.0/SchoolOop.GeneratedMSBuildEditorConfig.editorconfig
+/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/notes/cSharp/SchoolOop/obj/Debug/net6.0/SchoolOop.AssemblyInfoInputs.cache
+/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/notes/cSharp/SchoolOop/obj/Debug/net6.0/SchoolOop.AssemblyInfo.cs
+/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/notes/cSharp/SchoolOop/obj/Debug/net6.0/SchoolOop.csproj.CoreCompileInputs.cache
+/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/notes/cSharp/SchoolOop/obj/Debug/net6.0/SchoolOop.dll
+/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/notes/cSharp/SchoolOop/obj/Debug/net6.0/refint/SchoolOop.dll
+/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/notes/cSharp/SchoolOop/obj/Debug/net6.0/SchoolOop.pdb
+/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/notes/cSharp/SchoolOop/obj/Debug/net6.0/SchoolOop.genruntimeconfig.cache
+/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/notes/cSharp/SchoolOop/obj/Debug/net6.0/ref/SchoolOop.dll
