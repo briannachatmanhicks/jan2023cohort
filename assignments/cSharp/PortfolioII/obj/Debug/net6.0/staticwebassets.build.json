@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "PY2cmI1JRN4cPJrwpguzdkAo4YoyDd/Elq6NEWrnbYI=",
+  "Source": "PortfolioII",
+  "BasePath": "_content/PortfolioII",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PortfolioII/wwwroot",
+      "Source": "PortfolioII",
+      "ContentRoot": "/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/assignments/cSharp/PortfolioII/wwwroot/",
+      "BasePath": "_content/PortfolioII",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/assignments/cSharp/PortfolioII/wwwroot/css/styles.css",
+      "SourceId": "PortfolioII",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/assignments/cSharp/PortfolioII/wwwroot/",
+      "BasePath": "_content/PortfolioII",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/styles.css"
+    },
+    {
+      "Identity": "/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/assignments/cSharp/PortfolioII/wwwroot/css/styles.less",
+      "SourceId": "PortfolioII",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/assignments/cSharp/PortfolioII/wwwroot/",
+      "BasePath": "_content/PortfolioII",
+      "RelativePath": "css/styles.less",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/styles.less"
+    },
+    {
+      "Identity": "/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/assignments/cSharp/PortfolioII/wwwroot/images/bee.png",
+      "SourceId": "PortfolioII",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/assignments/cSharp/PortfolioII/wwwroot/",
+      "BasePath": "_content/PortfolioII",
+      "RelativePath": "images/bee.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/bee.png"
+    },
+    {
+      "Identity": "/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/assignments/cSharp/PortfolioII/wwwroot/images/picofme.jpeg",
+      "SourceId": "PortfolioII",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/assignments/cSharp/PortfolioII/wwwroot/",
+      "BasePath": "_content/PortfolioII",
+      "RelativePath": "images/picofme.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/picofme.jpeg"
+    }
+  ]
+}
