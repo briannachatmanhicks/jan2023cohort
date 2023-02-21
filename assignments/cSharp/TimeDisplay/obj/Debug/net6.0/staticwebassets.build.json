@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "duy+YkmwVGrbgN2Y7NiLTlvS2V2/EvguC54YO3bEoCE=",
+  "Source": "TimeDisplay",
+  "BasePath": "_content/TimeDisplay",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TimeDisplay/wwwroot",
+      "Source": "TimeDisplay",
+      "ContentRoot": "/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/assignments/cSharp/TimeDisplay/wwwroot/",
+      "BasePath": "_content/TimeDisplay",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/assignments/cSharp/TimeDisplay/wwwroot/css/styles.css",
+      "SourceId": "TimeDisplay",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/assignments/cSharp/TimeDisplay/wwwroot/",
+      "BasePath": "_content/TimeDisplay",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/styles.css"
+    },
+    {
+      "Identity": "/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/assignments/cSharp/TimeDisplay/wwwroot/css/styles.less",
+      "SourceId": "TimeDisplay",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/assignments/cSharp/TimeDisplay/wwwroot/",
+      "BasePath": "_content/TimeDisplay",
+      "RelativePath": "css/styles.less",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/styles.less"
+    }
+  ]
+}
