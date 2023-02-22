@@ -4,10 +4,10 @@ class Coffee : Drink
 {
     public string Roast;
     public string Beans;
-    public Coffee(string n, string col, double t, int cal, string r, string b) : base(n, col, t, true, cal) 
+    public Coffee(string name, string color, double temp, int calories, string roast, string beans) : base(name, color, temp, true, calories) 
     {
-        Roast = r;
-        Beans = b;
+        Roast = roast;
+        Beans = beans;
     }
 
     public override void ShowDrink()

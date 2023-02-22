@@ -5,10 +5,10 @@ class Wine : Drink
 {
     public string Region;
     public int Year;
-    public Wine(string n, string col, double t, int cal, string r, int y) : base(n, col, t, true, cal) 
+    public Wine(string name, string color, double temp, int calories, string region, int year) : base(name, color, temp, true, calories) 
     {
-        Region = r;
-        Year = y;
+        Region = region;
+        Year = year;
     }
 
     public override void ShowDrink()

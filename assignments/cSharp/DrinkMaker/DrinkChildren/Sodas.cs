@@ -4,9 +4,9 @@
 class Soda : Drink
 {
     public bool IsDiet;
-    public Soda(string n, string col, double t, int cal, bool id) : base(n, col, t, true, cal) 
+    public Soda(string name, string color, double temp, int calories, bool isDiet) : base(name, color, temp, true, calories) 
     {
-        IsDiet = id;
+        IsDiet = isDiet;
     }
 
     public override void ShowDrink()
