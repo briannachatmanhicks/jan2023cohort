@@ -1,0 +1,12 @@
+@{
+    ViewData["Title"] = "Squishies";
+}
+@model List<Squishy>;
+<div class="text-center">
+    <h1>Meet the Squishies</h1>
+    @{
+        foreach(Squishy item in Model) {
+            <h3>@item.Name is @item.Age years old</h3>
+        }
+    }
+</div>
