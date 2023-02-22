@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "MYctKvplX0Z8953dQqVLHvaTNL80CTwhJ1qc/VWBlrY=",
+  "Source": "DojoSurvey",
+  "BasePath": "_content/DojoSurvey",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DojoSurvey/wwwroot",
+      "Source": "DojoSurvey",
+      "ContentRoot": "/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/assignments/cSharp/DojoSurvey/wwwroot/",
+      "BasePath": "_content/DojoSurvey",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/assignments/cSharp/DojoSurvey/wwwroot/css/styles.css",
+      "SourceId": "DojoSurvey",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/assignments/cSharp/DojoSurvey/wwwroot/",
+      "BasePath": "_content/DojoSurvey",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/styles.css"
+    },
+    {
+      "Identity": "/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/assignments/cSharp/DojoSurvey/wwwroot/css/styles.less",
+      "SourceId": "DojoSurvey",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/assignments/cSharp/DojoSurvey/wwwroot/",
+      "BasePath": "_content/DojoSurvey",
+      "RelativePath": "css/styles.less",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/styles.less"
+    }
+  ]
+}
