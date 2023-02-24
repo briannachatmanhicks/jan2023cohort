@@ -6,15 +6,25 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
+<<<<<<<< HEAD:lectures/cSharp/week2/day3/ImagesAndForms/bin/Debug/net7.0/ImagesAndForms.deps.json
       "ImagesAndForms/1.0.0": {
         "runtime": {
           "ImagesAndForms.dll": {}
+========
+      "ValidationsPartI/1.0.0": {
+        "runtime": {
+          "ValidationsPartI.dll": {}
+>>>>>>>> refs/remotes/origin/main:lectures/cSharp/week2/day4/ValidationsPartI/bin/Debug/net7.0/ValidationsPartI.deps.json
         }
       }
     }
   },
   "libraries": {
+<<<<<<<< HEAD:lectures/cSharp/week2/day3/ImagesAndForms/bin/Debug/net7.0/ImagesAndForms.deps.json
     "ImagesAndForms/1.0.0": {
+========
+    "ValidationsPartI/1.0.0": {
+>>>>>>>> refs/remotes/origin/main:lectures/cSharp/week2/day4/ValidationsPartI/bin/Debug/net7.0/ValidationsPartI.deps.json
       "type": "project",
       "serviceable": false,
       "sha512": ""

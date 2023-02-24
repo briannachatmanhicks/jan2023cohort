@@ -6,15 +6,25 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
+<<<<<<<< HEAD:lectures/cSharp/week2/day4/ReviewPartI/bin/Debug/net7.0/ReviewPartI.deps.json
       "ReviewPartI/1.0.0": {
         "runtime": {
           "ReviewPartI.dll": {}
+========
+      "ImagesAndForms/1.0.0": {
+        "runtime": {
+          "ImagesAndForms.dll": {}
+>>>>>>>> refs/remotes/origin/main:lectures/cSharp/week2/day3/ImagesAndForms/bin/Debug/net7.0/ImagesAndForms.deps.json
         }
       }
     }
   },
   "libraries": {
+<<<<<<<< HEAD:lectures/cSharp/week2/day4/ReviewPartI/bin/Debug/net7.0/ReviewPartI.deps.json
     "ReviewPartI/1.0.0": {
+========
+    "ImagesAndForms/1.0.0": {
+>>>>>>>> refs/remotes/origin/main:lectures/cSharp/week2/day3/ImagesAndForms/bin/Debug/net7.0/ImagesAndForms.deps.json
       "type": "project",
       "serviceable": false,
       "sha512": ""
