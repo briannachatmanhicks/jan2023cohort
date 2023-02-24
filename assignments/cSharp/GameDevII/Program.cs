@@ -61,7 +61,7 @@ Five.Heal(Shooter);
 Five.Heal(Five);
 
 
-Console.WriteLine("-----------------------------BONUS")
+Console.WriteLine("-----------------------------BONUS");
 
 // Write special Console messages for each fighter's PerformAttack method
     //Melee.cs line 34 - 37

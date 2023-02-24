@@ -17,25 +17,17 @@ public class HomeController : Controller
     {
         return View();
     }
+    // [HttpGet("survey")]
+    // public IActionResult Submission() {
+    //     return View();
+    // }
 
     [HttpPost("survey")]
     public IActionResult Submission(Survey yourSurvey)
     {
-        return View("Survey", yourSurvey);
+        return View("Submission", yourSurvey);
     }
 
-    // [HttpPost("survey")]
-    // public IActionResult Submission(Survey yourSurvey)
-    // {
-    //     if (ModelState.IsValid)                  another way to do this but I need to understand how to do this
-    //     {
-    //         return View("Survey", yourSurvey);
-    //     }
-    //     else
-    //     {
-    //         return View("Index");
-    //     }
-    // }
 
     public IActionResult Privacy()
     {

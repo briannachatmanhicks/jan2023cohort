@@ -2,25 +2,22 @@
     ViewData["Title"] = "Home Page";
 }
 
-@model Survey;
+@model Survey
 
 <form action="survey" method="post">
     <div class="form-group">
         <label for="Name">Your Name</label>
         <input asp-for="Name" class="form-control">
-        <span asp-validation-for="Name" class="text-danger"></span>
     </div>
 
     <div class="form-group">
         <label for="Language">Favorite Language</label>
         <input asp-for="Language" class="form-control">
-        <span asp-validation-for="Language" class="text-danger"></span>
     </div>
 
     <div class="form-group">
         <label for="Location">Location</label>
         <input asp-for="Location" class="form-control">
-        <span asp-validation-for="Location" class="text-danger"></span>
     </div>
 
     <div class="form-group">
