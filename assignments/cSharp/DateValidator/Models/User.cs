@@ -12,19 +12,19 @@ public class User {
     [Required (ErrorMessage="This field is required")]
     public string LastName{get;set;}
 
-    // [FutureDate]
-    public DateTime? DOB {get;set;}
+    [FutureDate]
+    public DateTime DOB {get;set;}
 
 
 }
 
 
-// public class FutureDateAttribute : ValidationAttribute{
-// protected override ValidationResult IsValid(object value, ValidationContext validationContext){
-//     // DateTime DOB;
-//         if (value is DateTime){  
-//             return new ValidationResult("Custom error message");}
-//         else{
-//             return ValidationResult.Success; }    
-//     }
-// }
+public class FutureDateAttribute : ValidationAttribute{
+protected override ValidationResult IsValid(object value, ValidationContext validationContext){
+    DateTime CurrentTime = DateTime.Now;
+        if (((DateTime)value) > CurrentTime) {  
+            return new ValidationResult("The date cannot be in the future");}
+        else{
+            return ValidationResult.Success; }    
+    }
+}
