@@ -1,0 +1,19 @@
+@model User
+<h1>Just testing things out!</h1>
+<h2>Nothing crazy, just testing more</h2>
+
+<div class="container">
+    <h1>Welcome to our website!</h1>
+
+
+    <div class="row mt-5">
+        <div class="col-md">
+            @await Html.PartialAsync("_Register")
+        </div>
+
+        <div class="col-md">
+            @await Html.PartialAsync("_Login")
+        </div>
+    </div>
+
+</div>
