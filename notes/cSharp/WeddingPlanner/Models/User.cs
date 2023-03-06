@@ -33,6 +33,12 @@ public class User {
     
     public DateTime CreatedAt { get; set; } = DateTime.Now;
     public DateTime UpdatedAt { get; set; } = DateTime.Now;
+
+//* required for the many to many relationship
+    public List<UserWedAttend> WeddingsAttending {get;set;} = new List<UserWedAttend> ();
+
+//? I created this to be a one to many relationship in order for one organizer to organize many weddings.
+    List<Wedding> OrganizedWeddings {get;set;}
 }
 
 // public class UniqueEmailAttribute : ValidationAttribute

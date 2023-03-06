@@ -2,6 +2,7 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using WeddingPlanner.Models;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc.Filters;
 
 namespace WeddingPlanner.Controllers;
 
@@ -13,16 +14,10 @@ public class UserController : Controller
     }
 
     
-    [HttpGet("/success")]
+    [HttpGet("")]
     public IActionResult TestView()
     {
         return View("test");
-    }
-
-    [HttpGet("/weddings")]
-    public IActionResult ShowWeddings()
-    {
-        return View("WeddingsList");
     }
 
     [HttpPost("/addUser")]
@@ -30,7 +25,7 @@ public class UserController : Controller
     {
         if(!ModelState.IsValid)
         {
-            return View("test", newUser);
+            return View("test");
         }
         else
         {
@@ -41,6 +36,7 @@ public class UserController : Controller
             db.SaveChanges();
 
             HttpContext.Session.SetInt32("UUID", newUser.UserId);
+            HttpContext.Session.SetString("name", " " + newUser.FirstName);
 
             return Redirect ("/weddings");
         }
@@ -68,7 +64,8 @@ public class UserController : Controller
         }
 
         HttpContext.Session.SetInt32("UUID", dataBUser.UserId);
-        return View("WeddingsList");
+        HttpContext.Session.SetString("name", " " + dataBUser.FirstName);
+        return Redirect("/weddings");
     }
     else 
     {
@@ -76,4 +73,27 @@ public class UserController : Controller
     }
     }
 
+    [HttpPost("/logout")]
+    public IActionResult Logout()
+    {
+        HttpContext.Session.Clear();
+        return RedirectToAction("TestView");
+    }
+
+}
+
+public class SessionCheckAttribute : ActionFilterAttribute
+{
+    public override void OnActionExecuting(ActionExecutingContext context)
+    {
+        // Find the session, but remember it may be null so we need int?
+        int? userId = context.HttpContext.Session.GetInt32("UUID");
+        // Check to see if we got back null
+        if(userId == null)
+        {
+            // Redirect to the Index page if there was nothing in session
+            // "Home" here is referring to "HomeController", you can use any controller that is appropriate here
+            context.Result = new RedirectToActionResult("TestView", "User", null);
+        }
+    }
 }

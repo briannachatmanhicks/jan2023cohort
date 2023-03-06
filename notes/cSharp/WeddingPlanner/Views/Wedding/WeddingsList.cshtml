@@ -1,0 +1,33 @@
+@model List<Wedding>
+
+<h1>I am going to show a list of weddings!</h1>
+<h2>Welcome, @Context.Session.GetString("name")!</h2>
+@foreach (Wedding wedding in Model) {
+    <h3>@wedding.WedderOne & @wedding.WedderTwo</h3>
+    <h3>@wedding.Date</h3>
+    <form 
+    asp-controller="Wedding"
+    asp-action="RSVP"
+    asp-route-weddingId = "@wedding.WeddingId"
+    method="POST"
+    >
+    @if (@wedding.UserId == (int)Context.Session.GetInt32("UUID")){
+        <form>
+            <button>Delete</button>
+        </form>
+    } else {bool rsvpConfirmed = wedding.Attendees.Any(a => a.UserId == Context.Session.GetInt32("UUID"));
+    
+    <button>
+        @if(rsvpConfirmed)
+        {
+            <span>Un-RSVP</span>
+        }
+        else
+        {
+            <span>RSVP</span>
+        }
+    </button>}
+
+    <p>@wedding.Attendees.Count()</p>
+    </form>
+}
